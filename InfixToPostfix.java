@@ -80,7 +80,7 @@ public class InfixToPostfix {
 
     public static void main(String[] args) {
         // Scanner scan = new Scanner(System.in);
-        Inftopost in = new Inftopost();
+        InfixToPostfix in = new InfixToPostfix();
 
         String str = "(a+b)*c";
         System.out.println(in.infToPos(str));
